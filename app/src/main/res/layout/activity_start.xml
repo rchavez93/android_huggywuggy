@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/startBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackbackground"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/lowLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/darkroom"
+        />
+
+    <ImageView
+        android:id="@+id/overlayLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toyroom"
+        />
+
+    <ImageButton
+        android:id="@+id/toyStart"
+        android:layout_width="315dp"
+        android:layout_height="468dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663"
+        app:srcCompat="@drawable/hwnormal"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/toyHighlight"
+        android:layout_width="315dp"
+        android:layout_height="468dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/toystartbright"
+        />
+
+    <ImageButton
+        android:id="@+id/toyTeeth"
+        android:layout_width="315dp"
+        android:layout_height="468dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/toyendteeth2"
+        />
+
+    <ImageButton
+        android:id="@+id/hugButton"
+        android:layout_width="265dp"
+        android:layout_height="123dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/hugme"
+        />
+
+    <ImageButton
+        android:id="@+id/restartButton"
+        android:layout_width="265dp"
+        android:layout_height="123dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="80dp"
+        android:text="RESTART"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/restartbutton"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
